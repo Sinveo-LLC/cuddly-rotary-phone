@@ -3,7 +3,7 @@ const fileinclude = require('gulp-file-include');
 const paths = {
   html: {
     src: 'src/*.html',
-    dest: 'publish/'
+    dest: 'docs/'
   }
 };
 
