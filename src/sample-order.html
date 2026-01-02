@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<!--
+  Solid State by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <title>Solid State by HTML5 UP</title>
+  @@include('./partials/head.html')
+</head>
+
+<body class="is-preload">
+
+  <!-- Page Wrapper -->
+  <div id="page-wrapper">
+
+    @@include('./partials/header.html')
+    @@include('./partials/menu.html')
+    @@include('./partials/banner.html')
+    <!-- Footer -->
+    <section id="footer">
+      <div class="inner">
+        <h2 class="major">Sample Order</h2>
+        <p>Use the below form to submit a sample order request.</p>
+        <form method="post" action="https://formsubmit.co/63545d9f5fd5bb6185d37f3eb4d49be3">
+          <input type="hidden" name="_next" value="https://shop.sinveo.com/thanks.html" />
+          <input type="hidden" name="_subject" value="Order Request" />
+          <input type="hidden" name="_blacklist" value="" />
+          <input type="text" name="_honey" style="display:none" />
+          <input type="hidden" name="_autoresponse" value="your custom message" />
+          <input type="hidden" name="_template" value="table" />
+          <div class="fields">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="field">
+              <label for="item">Item</label>
+              <select name="item" id="item">
+                <option value="Sample A">Sample A</option>
+                <option value="Sample B">Sample B</option>
+                <option value="Sample C">Sample C</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="o1">Option 1</label>
+              <select name="o1" id="o1">
+                <option value="Option A">Option 1-A</option>
+                <option value="Option B">Option 1-B</option>
+                <option value="Option C">Option 1-C</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="o2">Option 2</label>
+              <select name="o2" id="o2">
+                <option value="Option A">Option 2-A</option>
+                <option value="Option B">Option 2-B</option>
+                <option value="Option C">Option 2-C</option>
+              </select>
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="Request" /></li>
+          </ul>
+        </form>
+        <ul class="contact">
+          <li class="icon solid fa-home">
+            Untitled Inc<br />
+            1234 Somewhere Road Suite #2894<br />
+            Nashville, TN 00000-0000
+          </li>
+          <li class="icon solid fa-phone">(000) 000-0000</li>
+          <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+          <li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
+          <li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
+          <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Untitled Inc. All rights reserved.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  @@include('./partials/scripts.html')
+</body>
+
+</html>
