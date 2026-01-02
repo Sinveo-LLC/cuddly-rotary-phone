@@ -34,15 +34,16 @@
           <div class="fields">
             <div class="field">
               <label for="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" required="required" autocomplete="on" />
             </div>
             <div class="field">
               <label for="email">Email</label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" required="required" autocomplete="on" />
             </div>
             <div class="field">
               <label for="item">Item</label>
-              <select name="item" id="item">
+              <select name="item" id="item" required="required">
+                <option value="" disabled selected>Select an item</option>
                 <option value="Sample A">Sample A</option>
                 <option value="Sample B">Sample B</option>
                 <option value="Sample C">Sample C</option>
@@ -50,7 +51,8 @@
             </div>
             <div class="field">
               <label for="o1">Option 1</label>
-              <select name="o1" id="o1">
+              <select name="size" id="o1" required="required">
+                <option value="" disabled selected>Select an item</option>
                 <option value="Option A">Option 1-A</option>
                 <option value="Option B">Option 1-B</option>
                 <option value="Option C">Option 1-C</option>
@@ -58,7 +60,8 @@
             </div>
             <div class="field">
               <label for="o2">Option 2</label>
-              <select name="o2" id="o2">
+              <select name="color" id="o2" required="required">
+                <option value="" disabled selected>Select an item</option>
                 <option value="Option A">Option 2-A</option>
                 <option value="Option B">Option 2-B</option>
                 <option value="Option C">Option 2-C</option>
